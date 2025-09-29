@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGA WHEEL</title>
+
+    <!-- .......Bootstrap CDN........... -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- ...........css stylesheet........ -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ..........font awesome cdn............. -->
+    <script src="https://kit.fontawesome.com/04ab462d40.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- .......Header........ -->
+    <div class="top-bar">
+      <div class="info">
+        <span><b>Suite FF17, Anfara's Plaza, 1st Avenue, Gwarinpa Esate, Abuja.</b></span>
+        <span><b>info@Megawheel.com</b></span>
+        <span><b>+23481056984264, +2349452187654</b></span>
+      </div>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+    </div>
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">MEGA <span>Wheel</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <!-- Dropdown GPS Tracker -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="gpsDropdown" role="button" data-bs-toggle="dropdown">
+                GPS Tracker
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Car Tracker</a></li>
+                <li><a class="dropdown-item" href="#">Bike Tracker</a></li>
+                <li><a class="dropdown-item" href="#">Fleet Management</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">IoT Solution</a>
+            </li>
+
+            <!-- Dropdown Services -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Consulting</a></li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+                <li><a class="dropdown-item" href="#">Installation</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ............Hero Section........... -->
+    <section class="hero">
+      <img src="Images/wheel 11.jpg">
+    </section>
+
+    <img class="heros" src="Images/wheel 12.jpg">
+    
+
+    <div class="container my-5">
+      <h2 class="text-center fw-bold">Our Services</h2>
+      <p class="text-center text-muted">
+        We Provide Many Of The Best Services For You And You Will Get The Best Benefits Here
+      </p>
+
+      <div class="row mt-4 g-4">
+        <!-- Box 1 -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <i class="fa-solid fa-car"></i>
+            <h5 class="fw-bold">Top Buy & Sell Automobile</h5>
+            <p class="text-muted">We Provide Many Of The Best Services For You And You Will Get The Best Benefits Here</p>
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <h5 class="fw-bold">Tracking System</h5>
+            <p class="text-muted">We Provide Many Of The Best Services For You And You Will Get The Best Benefits Here</p>
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div class="col-md-4">
+          <div class="service-box">
+            <i class="fa-solid fa-store"></i>
+            <h5 class="fw-bold">Dealership</h5>
+            <p class="text-muted">We Provide Many Of The Best Services For You And You Will Get The Best Benefits Here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Highlight Bar -->
+    <div class="highlight-bar">
+      <i class="fa-solid fa-location-dot"></i>
+      Unlocking the power of connectivity, MegaWheel leads the way in IoT solutions .....
+    </div>
+
+    <!-- ........swipe section........ -->
+    <div class="swipe-container">
+      <!-- Slide 1 -->
+      <div class="swipe-slide active">
+        <div class="swipe-image">
+          <img src="Images/wheel 14.jpg" alt="Automobile">
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swipe-slide">
+        <div class="swipe-image">
+          <img src="Images/wheel 15.jpg" alt="Motorbike">
+        </div>
+      </div>
+
+      <!-- Navigation buttons -->
+      <button class="nav-btn left" onclick="prevSlide()">&#10094;</button>
+      <button class="nav-btn right" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <!-- ....hsujrr..... -->
+    <div class="container my-5 text-center">
+      <h2>Explore</h2>
+
+      <!-- Top Tabs -->
+      <ul class="nav nav-pills justify-content-center mb-4" id="exploreTabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Automobiles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tracking System</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">OED/ODM</a>
+        </li>
+      </ul>
+
+      <!-- Horizontal swipe section -->
+      <div class="scroll-container">
+
+        <!-- Baja Model 3 -->
+        <div class="card p-3">
+          <img src="Images/wheel 18.jpg" alt="Baja Model 3">
+          <div class="card-body">
+            <h5 class="card-title">Baja Model 3</h5>
+            <p class="mb-1 text-muted">Used</p>
+            <p class="mb-1">Model Year: 2023</p>
+            <p class="mb-1">Model: LC76</p>
+            <p class="mb-1">Fuel: Petrol</p>
+            <p class="price">₦350,620</p>
+            <button class="btn btn-order">Order Now</button>
+          </div>
+        </div>
+
+        <!-- TVS -->
+        <div class="card p-3">
+          <img src="Images/wheel 19.jpg" alt="TVS">
+          <div class="card-body">
+            <h5 class="card-title">TVS</h5>
+            <p class="mb-1 text-muted">Used</p>
+            <p class="mb-1">Model Year: 2020</p>
+            <p class="mb-1">Model: LC76</p>
+            <p class="mb-1">Fuel: Petrol</p>
+            <p class="price">₦1,200,000</p>
+            <button class="btn btn-order">Order Now</button>
+          </div>
+        </div>
+
+        <!-- Baja Model 6 -->
+        <div class="card p-3">
+          <img src="Images/wheel 20.jpg" alt="Baja Model 6">
+          <div class="card-body">
+            <h5 class="card-title">Baja Model 6</h5>
+            <p class="mb-1 text-muted">Used</p>
+            <p class="mb-1">Model Year: 2023</p>
+            <p class="mb-1">Model: LC76</p>
+            <p class="mb-1">Fuel: Petrol</p>
+            <p class="price">₦360,620</p>
+            <button class="btn btn-order">Order Now</button>
+          </div>
+        </div>
+
+      </div><!-- end scroll-container -->
+    </div>
+    
+
+    <!-- ZERO -->
+    <header class="zero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <div class="d-flex align-items-center justify-content-between">
+              <h1 class="title mb-0">Make a Smart Choice Today</h1>
+              <div class="d-none d-md-block text-end">
+                <div class="small">24 hrs</div>
+                <div class="small">Dedicated Service on Vehicle/Assets <br>Tracking and Purchases</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-md-none text-end mt-3">
+            <div class="small">24 hrs</div>
+            <div class="small">Dedicated Service on Vehicle/Assets<br>Tracking and Purchases</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Testimonials -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="section-title">Our Customer Feedback</h2>
+
+
+        <div class="row g-4 justify-content-center mt-4">
+          <div class="col-md-4">
+          <div class="test-card">
+          <div class="d-flex align-items-center">
+          <img src="Images/wheel 24.jpg" alt="profile" class="profile me-3">
+          <div>
+          <div class="test-author">Andrew James</div>
+          <div class="test-meta">Bought Corolla 2008</div>
+          </div>
+          </div>
+          <p class="test-text">The Listing Was Hot (More Than 170 Bids). Everything Worked Well. We Appreciated A Simple Process. Listing Page, Chat With A Seller, The Auction, Escrow Service — Everything Was Great, And We Didn\'t Need Anything On Top.</p>
+          </div>
+          </div>
+
+
+          <div class="col-md-4">
+          <div class="test-card">
+          <div class="d-flex align-items-center">
+          <img src="Images/wheel 25.jpg" alt="profile" class="profile me-3">
+          <div>
+          <div class="test-author">Musa Ahamed</div>
+          <div class="test-meta">Bought 17 Baja Model 3</div>
+          </div>
+          </div>
+          <p class="test-text">The Listing Was Hot (More Than 170 Bids). Everything Worked Well. We Appreciated A Simple Process. Listing Page, Chat With A Seller, The Auction, Escrow Service — Everything Was Great And We Didn\'t Need Anything On Top.</p>
+          </div>
+          </div>
+
+
+          <div class="col-md-4">
+          <div class="test-card">
+          <div class="d-flex align-items-center">
+          <img src="Images/wheel 26.jpg" alt="profile" class="profile me-3">
+          <div>
+          <div class="test-author">Anna Oche</div>
+          <div class="test-meta">Bought Mercedes Benz C-Class</div>
+          </div>
+          </div>
+          <p class="test-text">The Listing Was Hot (More Than 170 Bids). Everything Worked Well. We Appreciated A Simple Process. Listing Page, Chat With A Seller, The Auction, Escrow Service — Everything Was Great And We Didn\'t Need Anything On Top.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="py-4">
+      <div class="container">
+        <h2 class="section-title">Latest News & Blogs</h2>
+
+
+        <div class="row g-4 mt-4">
+        <div class="col-md-4">
+        <div class="blog-card">
+        <img src="Images/wheel 21.jpg" alt="bike">
+        <div class="card-body">
+        <p class="mb-0">Is The 2024 Power Bike</p>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="col-md-4">
+        <div class="blog-card">
+        <img src="Images/wheel 22.jpg" alt="tricycle">
+        <div class="card-body">
+        <p class="mb-0">Compact Steamroller: 2024 Tricycle</p>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="col-md-4">
+        <div class="blog-card">
+        <img src="Images/wheel 23.jpg" alt="tyres">
+        <div class="card-body">
+        <p class="mb-0">2024 Michelin Tyres</p>
+        </div>
+        </div>
+        </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer / Newsletter -->
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row gy-4">
+        <div class="col-md-4">
+        <h5>Subscribe To The Newsletter</h5>
+        <div class="mt-3 d-flex align-items-center">
+        <input class="form-control subscribe-input" placeholder="Enter Your Email" aria-label="Email">
+        <button class="btn btn-danger ms-2" style="border-radius:24px;"><i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="mt-3 social">
+        <button class="btn btn-outline-secondary me-2"><i class="fab fa-twitter"></i></button>
+        <button class="btn btn-outline-secondary me-2"><i class="fab fa-facebook-f"></i></button>
+        <button class="btn btn-outline-secondary"><i class="fab fa-linkedin-in"></i></button>
+        </div>
+        </div>
+
+
+        <div class="col-md-2">
+        <h6>Buying & Selling</h6>
+        <ul class="list-unstyled small mt-3">
+        <li>Find A Car</li>
+        <li>Listings By City</li>
+        <li>Sell Your Car</li>
+        <li>Compare Side By Side</li>
+        </ul>
+        </div>
+
+
+        <div class="col-md-3">
+        <h6>Resource</h6>
+        <ul class="list-unstyled small mt-3">
+        <li>Blog</li>
+        <li>Guides</li>
+        <li>FAQ</li>
+        <li>Help Center</li>
+        </ul>
+        </div>
+
+        <div class="col-md-3">
+        <h6>About</h6>
+        <ul class="list-unstyled small mt-3">
+        <li>Company</li>
+        <li>Career</li>
+        <li>Contact</li>
+        </ul>
+        </div>
+
+
+        </div>
+
+
+        <div class="text-center mt-4 small text-muted">© 2023 Car Mega Wheel. All Reserved &nbsp; · &nbsp; Terms Of Service &nbsp; · &nbsp; Privacy Policy</div>
+
+
+      </div>
+    </footer>
+        
+
+  
+
+
+
+
+
+
+    <script src="index.js" charset="UTF-8"></script>
+  </body>
+
+  <!-- jQuery, Popper.js, and Bootstrap JS (in this order!) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
